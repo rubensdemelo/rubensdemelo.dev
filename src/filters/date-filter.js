@@ -22,7 +22,11 @@ module.exports = function dateFilter(value) {
     'Novembro',
     'Dezembro'
   ];
-  const dayWithSuffix = appendSuffix(dateObject.getDate());
+  // const dayWithSuffix = appendSuffix(dateObject.getDate());
 
-  return `${dayWithSuffix} ${months[dateObject.getMonth()]} ${dateObject.getFullYear()}`;
+  // return `${dayWithSuffix} ${months[dateObject.getMonth()]} ${dateObject.getFullYear()}`;
+
+  return `${dateObject.getDate()} de ${
+    months[dateObject.getMonth()]
+  } de ${dateObject.getFullYear()}`;
 };
