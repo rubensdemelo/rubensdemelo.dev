@@ -1,7 +1,7 @@
 ---
 title: 'Contato'
-permalink: '/contact/index.html'
-layout: 'layouts/contact.njk'
+permalink: '/contato/index.html'
+layout: 'layouts/contato.njk'
 ---
 
 You can have a contact page which uses a basic form. The [code with the form fields lives here](https://github.com/hankchizljaw/hylia/blob/master/src/_includes/layouts/contact.njk).

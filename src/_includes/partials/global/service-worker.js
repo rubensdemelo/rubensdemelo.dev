@@ -9,7 +9,7 @@ const EXCLUDED_URLS = [
   '.netlify',
   'https://identity.netlify.com/v1/netlify-identity-widget.js',
   'https://unpkg.com/netlify-cms@^2.9.3/dist/netlify-cms.js',
-  '/contact',
+  '/contato',
   '/thank-you'
 ];
 
@@ -17,7 +17,7 @@ const EXCLUDED_URLS = [
 const PRE_CACHE_URLS = ['/', '/fonts/lora-v13-latin-700.woff'];
 
 // You might want to bypass a certain host
-const IGNORED_HOSTS = ['localhost', 'unpkg.com', ];
+const IGNORED_HOSTS = ['localhost', 'unpkg.com'];
 
 /**
  * Takes an array of strings and puts them in a named cache store
