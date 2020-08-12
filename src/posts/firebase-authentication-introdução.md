@@ -1,8 +1,8 @@
 ---
 layout: layouts/post.njk
-title: "Firebase Storage: Introdução"
+title: "Firebase Cloud Functions: Introdução"
 date: 2020-08-12T14:43:18.828Z
 tags:
-  - flutter firebase storage
+  - flutter firebase Functions
 ---
-Firebase Storage: Introdução
+Firebase Functions: Introdução
