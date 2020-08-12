@@ -1,8 +1,8 @@
 ---
 layout: layouts/post.njk
-title: "Firebase Authentication: Introdução"
+title: "Firebase Storage: Introdução"
 date: 2020-08-12T14:43:18.828Z
 tags:
-  - flutter firebase auth
+  - flutter firebase storage
 ---
-Firebase Authentication: Introdução
+Firebase Storage: Introdução
