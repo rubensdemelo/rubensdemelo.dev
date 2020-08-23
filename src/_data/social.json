@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "text": "Youtube",
+      "url": "https://www.youtube.com/user/rubensdemelo",
+      "external": true
+    },
+    {
+      "text": "GitHub",
+      "url": "https://github.com/rubensdemelo",
+      "external": true
+    },
+    {
+      "text": "Twitter",
+      "url": "https://twitter.com/rubensdemelo",
+      "external": true
+    },
+    {
+      "text": "Instagram",
+      "url": "https://instagram.com/rubensdemelo",
+      "external": true
+    }
+  ]
+}
