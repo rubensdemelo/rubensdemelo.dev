@@ -17,7 +17,7 @@ O [AWS Amplify](https://aws.amazon.com/pt/amplify/) finalmente agora suporta apl
 
 #### Flutter + AWS Amplify
 
-O [Flutter](https://flutter.dev/) cresceu (e muito) rapidamente. Consequentemente a busca por opções para backend também. Até então, o [Firebase](https://firebase.google.com/?hl=pt-br) era o único grande `backend as a service` disponível, com integração "nativa" e intuitiva para o Flutter ( a sinergia entre estres dois produtos é surpreendente :heart_eyes:). 
+O [Flutter](https://flutter.dev/) cresceu (e muito) rapidamente. Consequentemente a busca por opções para backend também. Até então, o [Firebase](https://firebase.google.com/?hl=pt-br) era o único grande `backend as a service` disponível, com integração "nativa" e intuitiva para o Flutter ( a sinergia entre estres dois produtos é surpreendente). 
 
 Outro grande produto deste mercado é o [AWS Amplify](https://aws.amazon.com/pt/amplify/), mas que até então, suportava apenas apps nativos ou com Javascript. 
 
