@@ -13,7 +13,7 @@ Uma nova opção de backend para aplicativos em Flutter.
 
 #### Resumão
 
-O [AWS Amplify](https://aws.amazon.com/pt/amplify/) finalmente agora suporta aplicativos Flutter. Está no estágio de Developer Preview e os recursos disponíves são: Auth, Storage e Analytics. 
+O [AWS Amplify](https://aws.amazon.com/pt/amplify/) finalmente agora suporta aplicativos Flutter. Está no estágio de Developer Preview e os recursos disponíves são: **Auth**, **Storage** e **Analytics**. 
 
 #### Flutter + AWS Amplify
 
@@ -25,7 +25,7 @@ E o suporte ao Flutter era uma das features mais requisitadas para o produto: ht
 
 #### Finalmente, a espera acabou!
 
-O [AWS Amplify](https://aws.amazon.com/pt/amplify/) finalmente agora suporta aplicativos Flutter. Está no estágio de Developer Preview e os recursos disponíves são: Auth, Storage e Analytics. Neste [post](https://aws.amazon.com/pt/blogs/mobile/announcing-aws-amplify-flutter-developer-preview/) há mais detalhes sobre a motivação, design & arquitetura da solução, casos de uso e próximos passos.
+O [AWS Amplify](https://aws.amazon.com/pt/amplify/) finalmente agora suporta aplicativos Flutter. Está no estágio de Developer Preview e os recursos disponíves são: **Auth**, **Storage** e **Analytics**. Neste [post](https://aws.amazon.com/pt/blogs/mobile/announcing-aws-amplify-flutter-developer-preview/) há mais detalhes sobre a motivação, design & arquitetura da solução, casos de uso e próximos passos.
 
 #### Primeira impressões
 
