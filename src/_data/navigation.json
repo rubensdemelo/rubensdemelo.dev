@@ -6,6 +6,11 @@
       "external": false
     },
     {
+      "text": "Posts",
+      "url": "/posts",
+      "external": false
+    },
+    {
       "text": "Projetos",
       "url": "/projetos",
       "external": false
