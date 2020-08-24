@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: Projetos
-permalink: /contato/index.html
+permalink: /projetos/index.html
 ---
 [Flutter para iniciantes](https://flutterparainiciantes.com.br): Livro online e open-source sobre Flutter, com média de 2.8k de usuários/mês.
 
