@@ -1,6 +1,6 @@
 ---
-title: Flutter + AWS Amplify 
-date: '2020-08-23'
+title: "Flutter + AWS Amplify "
+date: 2020-08-23
 tags:
   - flutter
   - aws
@@ -8,9 +8,11 @@ tags:
   - backend
 ---
 Uma nova opção de backend para aplicativos em Flutter.
+
 - - -
 
-#### Resumão 
+#### Resumão
+
 O [AWS Amplify](https://aws.amazon.com/pt/amplify/) finalmente agora suporta aplicativos Flutter. Está no estágio de Developer Preview e os recursos disponíves são: Auth, Storage e Analytics. 
 
 #### Flutter + AWS Amplify
@@ -29,13 +31,13 @@ O [AWS Amplify](https://aws.amazon.com/pt/amplify/) finalmente agora suporta apl
 
 Em breve vou fazer um post para detalhar melhor, mas vamos lá:
 
-:white_check_mark: AWS Amplify CLI - Facilita muito a configuração e ainda te auxilia caso faça alguma :shit: .<br/>
-:white_check_mark: Documentação e exemplos - Simples, diretos e bem detalhados. <br/>
-:white_check_mark: Auth Exceptions - Todas as exceptions são retornadas em uma lista, de uma só vez. <br/>
-:x: Dashboard - Não é tão intuitivo quanto o Firebase. <br/>
-:x: Configuração - Se a configuração estiver errada, só vai descobrir em tempo de execução.
+AWS Amplify CLI - Facilita muito a configuração e ainda te auxilia caso faça alguma besteira.
+Documentação e exemplos - Simples, diretos e bem detalhados.
+Auth Exceptions - Todas as exceptions são retornadas em uma lista, de uma só vez.
+Dashboard - Não é tão intuitivo quanto o Firebase.
+Configuração - Se a configuração estiver errada, só vai descobrir em tempo de execução.
 
-#### E agora ?
+#### E agora?
 
 O projeto está em `Developer Preview`, ou seja, há muito o que ser feito. Logo, toda contribuição é valida! Seja melhoria da documentação, do código Dart, novas issue para bugs e feedbacks em geral.
 
