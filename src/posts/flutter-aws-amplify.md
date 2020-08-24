@@ -21,7 +21,7 @@ O [Flutter](https://flutter.dev/) cresceu (e muito) rapidamente. Consequentement
 
 Outro grande produto deste mercado é o [AWS Amplify](https://aws.amazon.com/pt/amplify/), mas que até então, suportava apenas apps nativos ou com Javascript. 
 
-E o suporte ao Flutter era uma das features mais requisitadas para o produto: https://github.com/aws-amplify/amplify-js/issues/1852.
+E o suporte ao Flutter era uma das features mais [requisitadas ](https://github.com/aws-amplify/amplify-js/issues/1852)para o produto.
 
 #### Finalmente, a espera acabou!
 
