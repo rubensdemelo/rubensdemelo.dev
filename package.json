@@ -1,52 +1,34 @@
 {
-  "name": "hylia",
-  "version": "0.7.0",
-  "description": "A simple Eleventy starter kit to help you have a blog of your own",
-  "main": "index.js",
-  "dependencies": {
-    "@11ty/eleventy": "^0.10.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "@tbranyen/jsdom": "^13.0.0",
-    "concurrently": "^4.1.2",
-    "html-minifier": "^4.0.0",
-    "image-size": "^0.8.3",
-    "json-to-scss": "^1.5.0",
-    "sass": "^1.26.3",
-    "semver": "^6.3.0",
-    "slugify": "^1.4.0",
-    "stalfos": "github:hankchizljaw/stalfos#c8971d22726326cfc04089b2da4d51eeb1ebb0eb"
+  "name": "rubensdemelo.dev",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview",
+    "lint": "prettier --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
+    "format": "prettier --write --plugin-search-dir=. ."
   },
   "devDependencies": {
-    "@erquhart/rollup-plugin-node-builtins": "^2.1.5",
-    "bl": "^3.0.1",
-    "chokidar-cli": "^2.1.0",
-    "cross-env": "^5.2.1",
-    "make-dir-cli": "^2.0.0",
-    "prettier": "^1.19.1",
-    "rollup": "^1.32.1",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^5.2.0"
+    "@sveltejs/adapter-netlify": "^1.0.0-next.14",
+    "@sveltejs/adapter-static": "^1.0.0-next.11",
+    "@sveltejs/kit": "next",
+    "@typescript-eslint/eslint-plugin": "^4.19.0",
+    "@typescript-eslint/parser": "^4.19.0",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-svelte3": "^3.2.0",
+    "postcss": "^8.3.0",
+    "prettier": "~2.2.1",
+    "prettier-plugin-svelte": "^2.2.0",
+    "svelte": "^3.34.0",
+    "svelte-preprocess": "^4.0.0",
+    "tailwindcss": "^2.1.2",
+    "tslib": "^2.0.0",
+    "typescript": "^4.0.0"
   },
-  "scripts": {
-    "sass:tokens": "npx json-to-scss src/_data/tokens.json src/scss/_tokens.scss",
-    "sass:process": "npm run sass:tokens && sass src/scss/global.scss src/_includes/assets/css/global.css --style=compressed",
-    "cms:precompile": "make-dir dist/admin && nunjucks-precompile src/_includes > dist/admin/templates.js -i \"\\.(njk|css|svg)$\"",
-    "cms:bundle": "rollup --config",
-    "start": "concurrently \"npm run sass:process -- --watch\" \"npm run cms:bundle -- --watch\" \"chokidar \\\"src/_includes/**\\\" -c \\\"npm run cms:precompile\\\"\" \"npm run serve\"",
-    "serve": "cross-env ELEVENTY_ENV=development npx eleventy --serve",
-    "production": "npm run sass:process && npm run cms:precompile && npm run cms:bundle && npx eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hankchizljaw/hylia.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/hankchizljaw/hylia/issues"
-  },
-  "homepage": "https://github.com/hankchizljaw/hylia#readme"
+  "type": "module",
+  "dependencies": {
+    "postcss-load-config": "^3.0.1"
+  }
 }
