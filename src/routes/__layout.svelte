@@ -1,12 +1,13 @@
 <script lang="ts">
-	import Nav from '$lib/Nav/index.svelte';
-	import '../styles.css';
+	import '../app.css';
 </script>
 
-<main>
-	<Nav />
-</main>
+<nav>
+	<a href=".">Home</a>
+	<a href="sobre">Sobre</a>
+</nav>
 
 <main>
 	<slot />
 </main>
+<footer>Footer</footer>
