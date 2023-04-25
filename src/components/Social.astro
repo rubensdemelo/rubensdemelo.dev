@@ -1,0 +1,10 @@
+---
+export interface Props {
+	name: string;
+	link: string;
+}
+
+const { name, link } = Astro.props;
+---
+
+<span>&nbsp;&nbsp;<span class="symbol">-&nbsp;</span></span><span class="keyword">{name}</span><span class="symbol">:</span><span>&nbsp;<a class="value" href={link} target="_blank">rubensdemelo</a></span><br>
